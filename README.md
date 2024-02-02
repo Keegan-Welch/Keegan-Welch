@@ -15,6 +15,4 @@ You can click the Preview link to take a look at your changes.
 
 ## About Me
 
-Hello, I am Keegan. I picked up python a year ago and love to work on small projects. currently, I am working on a semi-large project: a text based story game. I'm learning to code because I want to go to RIT and learn how to make REAL games. My dream job is to be game dev at Bethesda. 
-
-
+:3
