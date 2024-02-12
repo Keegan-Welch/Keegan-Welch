@@ -31,9 +31,14 @@ public class Main{
      */
     public void mainLoop() {
         while (running) {
-            System.out.prinf("loop #%i", loops);
-            loops ++;
-        }
+            System.out.printf("loop #%i", loops);
+
+            
+            if (loops >= 1000) {
+                loops ++;
+            } else {
+                running = false;
+            }
     }
     
 
