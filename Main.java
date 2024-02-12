@@ -61,7 +61,7 @@ public class Main{
             System.out.printf("loop #%i\n", loops);
 
             for (int name : names) {
-                System.out.println(name)
+                System.out.println(name);
             }
 
             if (loops >= 1000) {
@@ -74,6 +74,8 @@ public class Main{
 
     public static void(Main(String args[])) {
         windowSetup();
+
         mainLoop();
+        System.out.println("Thank you for using Skibidi");
     }
 }
