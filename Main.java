@@ -6,6 +6,8 @@ public class Main{
     static boolean running = true;
     static int loops = 0; //times mainLoop has looped
 
+    static String[] names = []{"John Doe", "John Smith", "John Zachary"};
+
     static double[] versions = []{0.0, 0.1}
     static double version = 0.1;
 
@@ -57,6 +59,10 @@ public class Main{
     public void mainLoop() {
         while (running) {
             System.out.printf("loop #%i\n", loops);
+
+            for (int name : names) {
+                System.out.println(name)
+            }
 
             if (loops >= 1000) {
                 loops ++;
