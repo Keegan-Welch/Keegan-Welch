@@ -6,8 +6,12 @@ public class Main{
     static boolean running = true;
     static int loops = 0; //times mainLoop has looped
 
-    static double = version;
+    static double[] versions = []{0.0, 0.1}
+    static double version = 0.1;
+
     static String userName;
+
+    
 
     Scanner input = new Scanner(System.in);
 
@@ -18,22 +22,31 @@ public class Main{
         JFrame frame = new JFrame("Meow");
         JLabel label1 = new JLabel("I love skibidi toilet");
 
-        System.out.printf("Verion: %d", version);
+        for (int versionIterator : versions) {
+            if (versionIterator == version) {
+                System.out.printf("Verion: %d\n", version);
 
-        frame.add(label1);
+                frame.add(label1);
 
-        frame.setSize(500,500);
-        frame.show();
+                frame.setSize(500,500);
+                frame.show();
+            } else {
+                System.out.printf("%d is not a valid version.\n", version);
+            }
+        }
+        
     }
 
     /**
      * This is the main loop that the program runs on.
+     * Each time the loop is complete, a variable called loops is incremented by one point.
+     * If the mainLoop has looped more than 1000 times, the running boolean will be set to false.
+     * The mainLoop will stop.
      */
     public void mainLoop() {
         while (running) {
-            System.out.printf("loop #%i", loops);
+            System.out.printf("loop #%i\n", loops);
 
-            
             if (loops >= 1000) {
                 loops ++;
             } else {
