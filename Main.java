@@ -24,14 +24,25 @@ public class Main{
 
         for (int versionIterator : versions) {
             if (versionIterator == version) {
-                System.out.printf("Verion: %d\n", version);
+                if (version == 0.0) {
+                    System.out.println("There's nothing here.")
+                } else if (version == 0.1) {
+                    System.out.printf("Verion: %d\n", version);
 
-                frame.add(label1);
+                    frame.add(label1);
 
-                frame.setSize(500,500);
-                frame.show();
+                    frame.setSize(500,500);
+                    frame.isResizeable(false);
+
+                    frame.isAlwaysOnTop(false);
+                    frame.show();
+                } else {
+                    running = false;
+                }
+                
             } else {
                 System.out.printf("%d is not a valid version.\n", version);
+                running = false;
             }
         }
         
