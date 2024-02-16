@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 import java.swing.*;
+import java.io.IOException;
 
 public class Main{
     static boolean running = true;
@@ -72,7 +73,7 @@ public class Main{
     }
     
 
-    public static void(Main(String args[])) {
+    public static void(Main(String args[])) throws IOException{
         windowSetup();
 
         mainLoop();
