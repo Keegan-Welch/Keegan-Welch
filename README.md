@@ -1,18 +1,13 @@
-# Hello, World!
+Hello, My name is Keegan Welch. I am a highschool student who is interested in pursuing computer science (particularly software engineering or game design) as a career. I participated as a programmer in FIRST Robotics in my Freshman and Sophomore years. I am currently enrolled in AP Computer Science.
 
-- 👋 Hi, I’m @Keegan-Welch
-- 👀 I’m interested in Python! it's my favorite programming language. But i'm also learning Java
-- 🌱 I’m currently learning Python and Java
-- 💞️ I’m looking to collaborate on Robotics and Game Design
-- 📫 How to reach me: keeganjamisonwelch@gmail.com
+Throughout my journey in computing, I have used several languages such as:
+* Python
+* C#
+* Javascript
+* Java
+* Lua
 
----
+I am most comfortable programming in Java & Python, but I am capable of using other languages if necessary.
 
-<!---
-Keegan-Welch/Keegan-Welch is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-## About Me
-
-:3
+## Business Information
+I am not currently seeking full-time employement due to having to attend school, but I would be willing to work part-time. if you'd like to contact me, you can email me at [keeganjamisonwelch@gmail.com](keeganjamisonwelch@gmail.com)
